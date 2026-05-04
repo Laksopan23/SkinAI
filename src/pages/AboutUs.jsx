@@ -83,6 +83,27 @@ const AboutUs = () => {
 
       <section className="section">
         <div className="container">
+          <SectionHeader
+            title="Research Supervision"
+            subtitle="Guided by academic excellence and industry expertise."
+          />
+          <div className="grid grid-2 gap-8" style={{ maxWidth: '900px', margin: '0 auto' }}>
+            <TeamMember 
+              name="Ms. Lokesha Weerasinghe"
+              role="Research Supervisor"
+              bio="Senior Lecturer | Department of Information Technology | Faculty of Computing"
+            />
+            <TeamMember 
+              name="Ms. Akshi De Silva"
+              role="Co-Supervisor"
+              bio="Assistant Lecturer | Department of First Year Division | Faculty of Computing"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
           <div className="card mission-card glass">
             <div className="grid grid-2 items-center">
               <div>
