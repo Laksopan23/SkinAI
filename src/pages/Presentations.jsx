@@ -5,13 +5,14 @@ import SectionHeader from '../components/SectionHeader';
 // Presentation Files
 import presentation1 from '../assets/documents/25-26j-222 presenation 1.pdf';
 import presentation2 from '../assets/documents/25-26j-222 Proposal Presentation 2.pdf';
+import presentationFinal from '../assets/documents/Skin_Disease_AI_Final_Presentation.pptx';
 
 const Presentations = () => {
   const slides = [
 
     { title: 'Progress Presentation 1', date: 'Dec 2025', fileUrl: presentation1 },
     { title: 'Progress Presentation 2', date: 'Feb 2026', fileUrl: presentation2 },
-    { title: 'Final Presentation', date: 'May 2026' }
+    { title: 'Final Presentation', date: 'May 2026', fileUrl: presentationFinal }
   ];
 
   return (
